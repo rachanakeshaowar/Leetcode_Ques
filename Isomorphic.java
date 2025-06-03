@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class Isomorphic{
-    public boolean isomorphic(String str,String str1) {
+    public boolean isomorphic_205(String str,String str1) {
 
         HashMap<Character,Character> mp = new HashMap<>();
 
