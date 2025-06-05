@@ -2,7 +2,7 @@
 
 import java.util.HashMap;
 
-public class LargestSubarrayWithEqualSum {
+public class LargestSubarrayWithEqualSum_53 {
     public int twoSum(int[] nums, int targetSum) {
         int sum = 0;
         int maxLen = 0;
@@ -26,7 +26,7 @@ public class LargestSubarrayWithEqualSum {
     }
 
     public static void main(String[] args) {
-        LargestSubarrayWithEqualSum obj = new LargestSubarrayWithEqualSum();
+        LargestSubarrayWithEqualSum_53 obj = new LargestSubarrayWithEqualSum_53();
         int[] nums = {1, -1, 1, -1 ,2, 3, 7, 5};
         int target = 0;
 
