@@ -27,15 +27,13 @@ public class TwoSum_1 {
             nums[i] = sc.nextInt();
         }
 
-        // Input target
         System.out.print("Enter target: ");
         int target = sc.nextInt();
 
-        // Call the method
         TwoSum_1 obj = new TwoSum_1();
         int[] ans = obj.twoSum(nums, target);
 
-        // Output
+     
         if (ans.length == 1 && ans[0] == -1) {
             System.out.println("No valid pair found.");
         } else {
