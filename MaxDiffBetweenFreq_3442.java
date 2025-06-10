@@ -1,5 +1,5 @@
 import java.util.*;
-public class MaxDDiffBetweenFreq_3442 {
+public class MaxDiffBetweenFreq_3442 {
  
     public int maxDifference(String s) {
       HashMap<Character,Integer> mp =new HashMap<>();
