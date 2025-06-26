@@ -1,4 +1,4 @@
-import java.util.*;
+
 class Stockprices_122 {
 
     public int maxProfit(int[] prices) {
@@ -11,4 +11,7 @@ class Stockprices_122 {
          return ans ;
     }
 }
+
+
+
 
