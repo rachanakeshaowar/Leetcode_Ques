@@ -1,11 +1,11 @@
 import java.util.*;
 public class Mimimize_MaximunDiff2616 {
 
-    // Find the number of valid pairs by greedy approach
+   
     private int countValidPairs(int[] nums, int threshold) {
         int index = 0, count = 0;
         while (index < nums.length - 1) {
-            // If a valid pair is found, skip both numbers.
+          
             if (nums[index + 1] - nums[index] <= threshold) {
                 count++;
                 index++;
@@ -23,8 +23,7 @@ public class Mimimize_MaximunDiff2616 {
         while (left < right) {
             int mid = left + (right - left) / 2;
 
-            // If there are enough pairs, look for a smaller threshold.
-            // Otherwise, look for a larger threshold.
+            
             if (countValidPairs(nums, mid) >= p) {
                 right = mid;
             } else {
